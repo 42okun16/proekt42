@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    tools:context=".ekran2">
+
+    <EditText
+        android:id="@+id/editHemo"
+        android:layout_width="332dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="ГЕМОГЛОБИН"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editEretr"
+        android:layout_width="328dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="208dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="ЭРИТРОЦИТЫ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editColor"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="ЦВЕТОВОЙ ПОКАЗАТЕЛЬ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editDiametr"
+        android:layout_width="330dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="296dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="ДИАМЕТР ЭРИТРОЦТИТОВ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCrobem"
+        android:layout_width="325dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="СРЕДНИЙ ОБЪЕМ ЭРИТРОЦИТОВ"
+        android:inputType="text"
+        android:textColor="#FFFCFC"
+        android:textColorHighlight="#F4F1F1"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCrhemogveret"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="384dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="СРЕД.СОДЕРЖ.ГЕМОГЛОБ В ЭРИТРОЦ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#E9DFDF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCkonhemogveret"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="432dp"
+        android:backgroundTint="#FFFEFE"
+        android:ems="10"
+        android:hint="СРЕД.КОНЦЕНТРАЦ.ГЕМОГЛ В ЭРИТРОЦ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editRetiko"
+        android:layout_width="325dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="480dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="РЕТИКУЛОЦИТЫ"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FAEFEF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_result"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editRetiko"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008"
+        app:srcCompat="@drawable/gem" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
