@@ -221,13 +221,13 @@ public class ekran2 extends AppCompatActivity {
                 return "В12-дефицитная анемия \n Миелограмма,Желудочная секреция,Кал на яйца гельминтов,гастроскопия";
         if (hemoglobin_level == VERY_LOW && eretrow_level == VERY_LOW && color_level == HIGH && diametr_level == HIGH && crobem_level == VERY_HIGH && crhemogveret_level == VERY_HIGH && crkonhemogveret_level == HIGH&& retikylo_level == LOW)
             return "В12-дефицитная анемия \n Миелограмма,Желудочная секреция,Кал на яйца гельминтов,гастроскопия";
-            if (hemoglobin_level == LOW && eretrow_level == NORMAL && color_level == LOW && diametr_level == LOW && crobem_level == NORMAL && crhemogveret_level == LOW && crkonhemogveret_level == LOW && retikylo_level == NORMAL)
+        if (hemoglobin_level == LOW && eretrow_level == NORMAL && color_level == LOW && diametr_level == LOW && crobem_level == NORMAL && crhemogveret_level == LOW && crkonhemogveret_level == LOW && retikylo_level == NORMAL)
                 return "Железодефицитная анемия \n Сывороточное железо,ОЖСС,%Насыщения трансферрина железом";
         if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == LOW && diametr_level == LOW && crobem_level == LOW && crhemogveret_level == LOW && crkonhemogveret_level == LOW && retikylo_level == NORMAL)
             return "Железодефицитная анемия \n Сывороточное железо,ОЖСС,%Насыщения трансферрина железом";
-            if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == NORMAL && crobem_level == NORMAL && crhemogveret_level == NORMAL && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
+        if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == NORMAL && crobem_level == NORMAL && crhemogveret_level == NORMAL && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
                 return "Гемолитическая анемия \n Билирубин сыворотки,Проба Кумбса,Продолжительность жизни эритроцитов,Аномальные гемоглобины,Ферменты эритроцитов";
-            if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == HIGH && crobem_level == HIGH && crhemogveret_level == HIGH && crkonhemogveret_level == LOW && retikylo_level == VERY_LOW)
+        if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == HIGH && crobem_level == HIGH && crhemogveret_level == HIGH && crkonhemogveret_level == LOW && retikylo_level == VERY_LOW)
                 return "Гипопластическая анемия \n Лейкоцитарнал формула,Тромбоциты,Миелограмма";
         if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == NORMAL && crobem_level == NORMAL && crhemogveret_level == NORMAL && crkonhemogveret_level == NORMAL && retikylo_level == VERY_LOW)
             return "Гипопластическая анемия \n Лейкоцитарнал формула,Тромбоциты,Миелограмма";
@@ -235,13 +235,13 @@ public class ekran2 extends AppCompatActivity {
             return "Гипопластическая анемия \n Лейкоцитарнал формула,Тромбоциты,Миелограмма";
         if (hemoglobin_level == VERY_LOW && eretrow_level == VERY_LOW && color_level == NORMAL && diametr_level == NORMAL && crobem_level == NORMAL && crhemogveret_level == NORMAL && crkonhemogveret_level == NORMAL && retikylo_level == VERY_LOW)
             return "Гипопластическая анемия \n Лейкоцитарнал формула,Тромбоциты,Миелограмма";
-            if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == LOW && crobem_level == HIGH && crhemogveret_level == HIGH && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
+        if (hemoglobin_level == LOW && eretrow_level == LOW && color_level == NORMAL && diametr_level == LOW && crobem_level == HIGH && crhemogveret_level == HIGH && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
                 return "Гемолитическая анемия \n Билирубин сыворотки,Проба Кумбса,Продолжительность жизни эритроцитов,Аномальные гемоглобины,Ферменты эритроцитов";
         if (hemoglobin_level == VERY_LOW && eretrow_level == VERY_LOW && color_level == NORMAL && diametr_level == LOW && crobem_level == HIGH && crhemogveret_level == HIGH && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
             return "Гемолитическая анемия \n Билирубин сыворотки,Проба Кумбса,Продолжительность жизни эритроцитов,Аномальные гемоглобины,Ферменты эритроцитов";
         if (hemoglobin_level == VERY_LOW && eretrow_level == VERY_LOW && color_level == NORMAL && diametr_level == NORMAL && crobem_level == NORMAL && crhemogveret_level == NORMAL && crkonhemogveret_level == NORMAL && retikylo_level == VERY_HIGH)
             return "Гемолитическая анемия \n Билирубин сыворотки,Проба Кумбса,Продолжительность жизни эритроцитов,Аномальные гемоглобины,Ферменты эритроцитов";
-            return "UNKNOWN\nUNKNOWN";
+         return "UNKNOWN\nUNKNOWN";
     }
 /*
     public String full_analysis(double hemoglobin, double eretrow, double color, double diametrm, double diametrc, double diametrb, double crobem, double crhemogveret, double crkonhemogveret, double retikylo) {
